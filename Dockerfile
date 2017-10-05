@@ -1,4 +1,4 @@
-FROM node:6.11.3
+FROM node:6.11.4
 MAINTAINER Damian Baćkowski <damianbackowski@gmail.com>
 
 ENV CHROME_PACKAGE="google-chrome-stable_61.0.3163.100-1_amd64.deb"
