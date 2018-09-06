@@ -1,7 +1,7 @@
-FROM node:8.11.3
+FROM node:8.11.4
 MAINTAINER Damian Baćkowski <damianbackowski@gmail.com>
 
-ENV CHROME_PACKAGE="google-chrome-stable_68.0.3440.84-1_amd64.deb"
+ENV CHROME_PACKAGE="google-chrome-stable_69.0.3497.81-1_amd64.deb"
 ENV DBUS_SESSION_BUS_ADDRESS=/dev/null
 
 RUN apt-get update && \
