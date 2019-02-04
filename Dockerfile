@@ -1,7 +1,7 @@
-FROM node:10.14.2
+FROM node:10.15.1
 MAINTAINER Damian Baćkowski <damianbackowski@gmail.com>
 
-ENV CHROME_PACKAGE="google-chrome-stable_71.0.3578.98-1_amd64.deb"
+ENV CHROME_PACKAGE="google-chrome-stable_72.0.3626.81-1_amd64.deb"
 ENV DBUS_SESSION_BUS_ADDRESS=/dev/null
 
 RUN apt-get update && \
