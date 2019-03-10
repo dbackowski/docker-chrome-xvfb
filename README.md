@@ -4,9 +4,9 @@ Dockerfile for CI (continuous integration) based on official node docker image w
 
 ## What is included?
 
-* Node.js - 10.15.1
+* Node.js - 10.15.3
 * xvfb
-* Google Chrome - 72.0.3626.81
+* Google Chrome - 72.0.3626.121
 
 ## Usage
 
